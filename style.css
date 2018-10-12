@@ -81,7 +81,7 @@ from the example  https://codepen.io/read-eye/pen/ZByYam
                     
                     .animatedp{
                       color:pink; 
-                      font-size: 40px;
+                      font-size: 20px;
                       margin: 10px 0 0 10px;
                       white-space: nowrap;
                       overflow: hidden;
@@ -110,11 +110,6 @@ from the example  https://codepen.io/read-eye/pen/ZByYam
                     @keyframes blink{
                       to{opacity: .0;}
                     }
-
-                   
-
-
-
 
                     /* contact form */
                     .contact-form {
@@ -511,3 +506,9 @@ colors:
     brown #ddbc95
     dark brown b38867
 */
+
+/* PAGE ABOUT */
+.about-page {
+    display: flex;
+    justify-content: center;
+}
