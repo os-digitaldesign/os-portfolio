@@ -68,18 +68,18 @@ list-style: none;}
 
 
 
-
-/* from the example  https://codepen.io/read-eye/pen/ZByYam
-                     http://www.megalocode.com/cooltext/animations 
+/* 
+from the example  https://codepen.io/read-eye/pen/ZByYam
+                     http://www.megalocode.com/cooltext/animations  */
 
                      .animated-tex{
                        border: 2px solid red;
-                       width: 80%;
+                       width: 100%;
                        float: left;
                        margin-left: 0;
                      }
                     
-                    p{
+                    .animatedp{
                       color:pink; 
                       font-size: 40px;
                       margin: 10px 0 0 10px;
@@ -89,7 +89,7 @@ list-style: none;}
                       animation: type 4s steps(60, end); 
                     }
                     
-                    p:nth-child(2){
+                    .animatedp:nth-child(2){
                       animation: type2 8s steps(60, end);
                     }
                     
@@ -111,7 +111,7 @@ list-style: none;}
                       to{opacity: .0;}
                     }
 
-                    */
+                   
 
 
 
@@ -158,11 +158,14 @@ list-style: none;}
 .project-description{
     width: 50vw;
     float: left;
+    border: 3px solid pink;
+    height: 100vh;
 }
 .project-illustration{
     width: 50vw;
     float: right;
     height: 100vh;
+    border: 3px solid red;
 }
 
 .project-illustration-image {
