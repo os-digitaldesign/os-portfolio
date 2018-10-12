@@ -10,43 +10,74 @@
 <body>
 	
   <div class="wrapper">
-    <div class="project-container">
-      <div class="project-container-item">
-        <h5 class="project-item-title">Visual Design</h5>
+    <div class="projects-container">
+      <div class="projects-container-item projects-visual">
+        <h5 class="projects-item-title">Visual Design</h5>
       </div>
 
-      <div class="project-container-item">
-        <h5 class="project-item-title">UX & UI Design</h5>
+      <div class="projects-container-item">
+        <h5 class="projects-item-title">hllo</h5>
       </div>
 
-      <div class="project-container-item">
-          <h5 class="project-item-title">Motion Graphics</h5>
+      <div class="projects-container-item projects-video">
+          <h5 class="projects-item-title">Motion Graphics</h5>
       </div>
 
-      <div class="project-container-item">
-          <h5 class="project-item-title">Illustrations</h5>
+      <div class="projects-container-item projects-illustrations">
+          <h5 class="projects-item-title">Illustrations</h5>
       </div>
 
-      <div class="project-container-item">
-          <h5 class="project-item-title">UX & UI design</h5>
+      <div class="projects-container-item projects-ux">
+          <h5 class="projects-item-title">UX & UI design</h5>
       </div>
 
-      <div class="project-container-item">
-          <h5 class="project-item-title">Macro Photography</h5>
+      <div class="projects-container-item projects-macro">
+          <!-- <img src="assets/macro/1.png" alt="" class="projects-container-image" width="100%"> -->
+          <h5 class="projects-item-title">Macro Photography</h5>
       </div>
 
-      <div class="project-container-item">
-          <h5 class="project-item-title">Landscpae Photography</h5>
+      <div class="projects-container-item projects-lanscape">
+          <h5 class="projects-item-title">Landscpae Photography</h5>
       </div>
 
-      <div class="project-container-item">
-          <h5 class="project-item-title">Architecture Photography</h5>
+      <div class="projects-container-item projects-architecture">
+          <h5 class="projects-item-title">Architecture Photography</h5>
       </div>
   </div>
 
 
 		
   </div>
+  <script src="scrollreveal.js"></script>
+  <script>
+    ScrollReveal().reveal('.projects-container-item', { delay: 0.3 },{ easing: 'ease-in' });
+  </script>
+<!-- SCROLL REVEAL EFFCET
+  <script>
+  // GENERAL SETTING
+window.sr = ScrollReveal({ reset: true });
+
+// Custom Settings
+sr.reveal('.foo-1', { duration: 200 });
+
+sr.reveal('.foo-2', { 
+  origin: 'right', 
+  duration: 2000 
+});
+
+sr.reveal('.foo-3', { 
+  rotate: { x: 100, y: 100, z: 0 },
+  duration: 1000
+});
+
+sr.reveal('.foo-4', { 
+  viewFactor: 0.5
+});
+
+sr.reveal('.foo-5', { 
+  duration: 200 
+});
+  </script> -->
 
 </body>
 </html>
