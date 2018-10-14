@@ -18,7 +18,6 @@ list-style: none;}
 
 .li-home {
     list-style: none;
-    color: red;
     position: fixed;
     top: 0;
     text-align: center;
@@ -30,7 +29,6 @@ list-style: none;}
     position: fixed;
     transform: rotate(-90deg);
     left: 0;
-    color: pink;
     margin-left: 10px;
 }
 
@@ -38,7 +36,6 @@ list-style: none;}
     position: fixed;
     transform: rotate(90deg);
     right: 0;
-    color: purple;
     margin-right: 10px;
 }
 
@@ -47,7 +44,6 @@ list-style: none;}
     bottom: 0;
     margin: auto; 
     transform: rotate(0);
-    color: cornflowerblue;
     margin-bottom: 10px;
 }
 
@@ -422,7 +418,7 @@ form {
     min-height: 350px;
 }
  
-.projects-item-title{
+/*.projects-item-title{
     margin: 0;
     height: 100%;
     opacity: 0;
@@ -430,7 +426,6 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ddbc95;
     color: white;
     font-size: 28px;
     min-height: 350px;
@@ -438,10 +433,11 @@ form {
 
 .projects-container-item:hover .projects-item-title{
         opacity: 0.7;
-}
+} */
 
 .projects-macro {
-    background-image: url(/assets/macro/macro.png);
+    /*background-image: url(/assets/macro/macro.png);*/
+    background-color: #6534ff;
     background-size: 100%;
     background-repeat: repeat;
     background-position: center;
@@ -450,7 +446,8 @@ form {
     grid-row: 3/4;
 }
 .projects-lanscape {
-    background-image: url(/assets/photography/landscape.jpg);
+    /*background-image: url(/assets/photography/landscape.jpg);*/
+    background-color: #fccdd3;
     background-size: 100%;
     background-repeat: repeat;
     background-position: center;
@@ -461,7 +458,7 @@ form {
 
 .projects-visual {
     /* background-image: url(/assets/visualdeaign/cover.jpg); */
-    background-color: beige;
+    background-color: #bbc4ef;
     background-size: 100%;
     background-repeat: repeat;
     background-position: center;
@@ -471,11 +468,12 @@ form {
 }
 
 .projects-visual:hover {
-    background-image: url(/assets/visualdeaign/cover.jpg);
+    
 }
 
 .projects-illustrations {
-    background-image: url(/assets/illustrations/cover.jpg);
+   /* background-image: url(/assets/illustrations/cover.jpg);*/
+    background-color: #6534ff;
     background-size: 100%;
     background-repeat: repeat;
     background-position: center;
@@ -483,18 +481,23 @@ form {
 }
 
 .projects-ux {
-    background-color: gray;
+    background-color: #62bcfa;
 } 
 
 .projects-architecture {
     grid-column: 3/4;
     grid-row: 3/6; 
-    background-color: grey;
+    background-color: #fccdd3;
 }
 
 .projects-video{
-    background-color: gray;
+    background-color: #62bcfa;
 }
+
+.projects-new {
+    background-color: #bbc4ef;
+}
+
 
 
 

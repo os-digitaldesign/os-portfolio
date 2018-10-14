@@ -1,0 +1,45 @@
+li {
+    list-style: none;
+    text-decoration: none;
+    }
+    
+    .li-home {
+        list-style: none;
+        color: #62bcfa;
+        position: fixed;
+        top: 0;
+        text-align: center;
+        left: 50vw;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    
+    .li-about {
+        position: fixed;
+        transform: rotate(-90deg);
+        left: 0;
+        margin: auto;
+        color: #62bcfa;
+        text-decoration: none;
+        top: 50vh;
+    }
+    
+    .li-projects{
+        position: fixed;
+        transform: rotate(90deg);
+        right: 0;
+        margin: auto;
+        color: #62bcfa;
+        text-decoration: none;
+        top: 50vh;
+    }
+    
+    .li-contact{
+        position: fixed;
+        bottom: 0;
+        left: 50vw; 
+        margin-bottom: 10px;
+        transform: rotate(0);
+        color: #62bcfa;
+        text-decoration: none;
+    }
