@@ -417,11 +417,19 @@ form {
 .projects-container-item {
     min-height: 350px;
 }
+
+/*.projects-container-item {
+    transition: opacity 400ms ease-in;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+} */
+
  
-/*.projects-item-title{
+.projects-item-title{
     margin: 0;
     height: 100%;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 400ms ease-in;
     display: flex;
     justify-content: center;
@@ -432,8 +440,8 @@ form {
 }
 
 .projects-container-item:hover .projects-item-title{
-        opacity: 0.7;
-} */
+        opacity: 0;
+} 
 
 .projects-macro {
     /*background-image: url(/assets/macro/macro.png);*/
@@ -445,8 +453,11 @@ form {
     grid-column: 1/3;
     grid-row: 3/4;
 }
+.projects-macro:hover {
+    background-image: url(/assets/macro/macro.png);
+}
+
 .projects-lanscape {
-    /*background-image: url(/assets/photography/landscape.jpg);*/
     background-color: #fccdd3;
     background-size: 100%;
     background-repeat: repeat;
@@ -455,9 +466,14 @@ form {
     grid-column: 1/1;
     grid-row: 1/1;
 }
+.projects-lanscape:hover{
+    background-image: url(/assets/photography/landscape.jpg);
+}
+.projects-visual:hover {
+    background-image: url(/assets/visualdeaign/cover.jpg);
+}
 
 .projects-visual {
-    /* background-image: url(/assets/visualdeaign/cover.jpg); */
     background-color: #bbc4ef;
     background-size: 100%;
     background-repeat: repeat;
@@ -472,22 +488,40 @@ form {
 }
 
 .projects-illustrations {
-   /* background-image: url(/assets/illustrations/cover.jpg);*/
     background-color: #6534ff;
     background-size: 100%;
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
 }
+.projects-illustrations:hover {
+    background-image: url(/assets/illustrations/cover1.jpg);  
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover; 
+}
 
 .projects-ux {
     background-color: #62bcfa;
 } 
+.projects-ux:hover {
+    background-image: url(/assets/atm/home.png);
+    background-size: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+}
 
 .projects-architecture {
     grid-column: 3/4;
     grid-row: 3/6; 
     background-color: #fccdd3;
+}
+.projects-architecture:hover {
+    background-image: url(/assets/photography/architecture.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .projects-video{
@@ -495,6 +529,10 @@ form {
 }
 
 .projects-new {
+    background-color: #bbc4ef;
+}
+
+.projects-bw {
     background-color: #bbc4ef;
 }
 
@@ -513,5 +551,26 @@ colors:
 /* PAGE ABOUT */
 .about-page {
     display: flex;
+    border: 3px solid yellow;
+    height: 100vh;
+}
+
+.profile-pic {
+    background-image: url(assets/profile-pic/profile-pic.JPG);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.software-container {
+    width: 50vw;
+    display: flex;
     justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.software {
+    
+    width: 30px;
+    
 }
