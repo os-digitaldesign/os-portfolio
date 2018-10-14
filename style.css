@@ -537,6 +537,9 @@ form {
 }
 .projects-bw:hover {
     background-image: url(/assets/photography/bw.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
