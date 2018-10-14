@@ -535,6 +535,9 @@ form {
 .projects-bw {
     background-color: #bbc4ef;
 }
+.projects-bw:hover {
+    background-image: url(/assets/photography/bw.jpg);
+}
 
 
 
