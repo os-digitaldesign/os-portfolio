@@ -264,23 +264,24 @@ h3 {
 
 /* CONTACT PAGE */
 .contact-description {
-    width: 50vw;
+    width: 40vw;
     border: 3px solid blue;
     float: left;
+
 }
 .contact-container {
     width: 50vw;
     height: 100vh;
-    border: 3px solid red;
     float: right;
     background-color: beige;
 }
 
 form {
-    background-color: beige;
+    background-color: #fccdd3;;
     display: block;
     padding: 20px;
     margin-top: 15%;
+    color: white;
 }
 
 /* CONTACT PAGE */
