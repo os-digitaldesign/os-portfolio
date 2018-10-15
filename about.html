@@ -35,17 +35,17 @@
 </div>
 
 <div class="personal-description-container">
-	<article class="personal-description">
+	<article class="personal-description pop-up-one">
 		<h3 class="project-title">About me</h3>
 		<p class="project-description-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro facilis iure eveniet numquam adipisci earum mollitia, at animi quae quod excepturi eligendi iste! Accusamus quod facilis eos laboriosam voluptate consequuntur.</p>
 	</article>
 
-	<article class="personal-description">
+	<article class="personal-description pop-up-two">
 		<h3 class="project-title">My creative world</h3>
 		<p class="project-description-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro facilis iure eveniet numquam adipisci earum mollitia, at animi quae quod excepturi eligendi iste! Accusamus quod facilis eos laboriosam voluptate consequuntur.</p>
 	</article>
 	
-	<article class="personal-description">
+	<article class="personal-description pop-up-three">
 		<h3 class="project-title">My skills</h3>
 			  <ul class="project-container-skills">
 				<li class="project-container-skills-list">HTML & CSS</li>
@@ -58,7 +58,7 @@
 			  </ul>
 	</article>
 	
-	<article class="personal-description">
+	<article class="personal-description pop-up-four">
 		<h3 class="project-title">Software</h3>
 			  <ul class="software-container">
 				<li class="software-list"><img src="software-icons/sketch.svg" alt="" class="software"></li>
@@ -74,6 +74,16 @@
 </div>
 
 
+<script src="scrollreveal.js"></script>
+<script>
+  ScrollReveal().reveal('.pop-up-one', { delay: 375},{ easing: 'steps(5)' }, { duration: 500 });
+
+  ScrollReveal().reveal('.pop-up-two', { delay: 375*2},{ easing: 'ease-in'}, { duration: 500 }, {distance: '120px'});
+
+  ScrollReveal().reveal('.pop-up-three', { delay: 375*3},{ easing: 'ease-in'}, { duration: 500 });
+
+  ScrollReveal().reveal('.pop-up-four', { delay: 375*4},{ easing: 'ease-in'}, { duration: 500 });
+</script>
 
 
 </body>

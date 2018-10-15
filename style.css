@@ -5,6 +5,18 @@ box-sizing: border-box;
 #home-page{
     background-color: 
 } */
+
+/* TYPOGRAPHY */
+p {
+    font-size: 18px;
+}
+h2 {
+    font-size: 30px;
+}
+.project-title{
+    font-size: 45px;
+    font-style: italic;
+}
 body {
 	margin: auto;
   /* max-width: 1040px; */
@@ -30,6 +42,9 @@ list-style: none;}
     transform: rotate(-90deg);
     left: 0;
     margin-left: 10px;
+}
+.li-home:hover {
+ 
 }
 
 .li-projects{
@@ -264,15 +279,15 @@ h3 {
 
 /* CONTACT PAGE */
 .contact-description {
-    width: 40vw;
-    border: 3px solid blue;
+    width: 50vw;
     float: left;
 
 }
 .contact-container {
-    width: 50vw;
+    width: 45vw;
     height: 100vh;
     float: right;
+    margin-right: 10px;
     background-color: beige;
 }
 
