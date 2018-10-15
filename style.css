@@ -69,10 +69,11 @@ from the example  https://codepen.io/read-eye/pen/ZByYam
                      http://www.megalocode.com/cooltext/animations  */
 
                      .animated-tex{
-                       border: 2px solid red;
-                       width: 100%;
+                       width: 50vw;
+                       height: 30vh;
                        float: left;
-                       margin-left: 0;
+                       margin-left: 40px;
+                       margin-top: 40%;
                      }
                     
                     .animatedp{
@@ -149,14 +150,12 @@ from the example  https://codepen.io/read-eye/pen/ZByYam
 .project-description{
     width: 50vw;
     float: left;
-    border: 3px solid pink;
     height: 100vh;
 }
 .project-illustration{
     width: 50vw;
     float: right;
     height: 100vh;
-    border: 3px solid red;
 }
 
 .project-illustration-image {
@@ -271,14 +270,17 @@ h3 {
 }
 .contact-container {
     width: 50vw;
+    height: 100vh;
     border: 3px solid red;
     float: right;
+    background-color: beige;
 }
 
 form {
     background-color: beige;
     display: block;
     padding: 20px;
+    margin-top: 15%;
 }
 
 /* CONTACT PAGE */
@@ -557,7 +559,6 @@ colors:
 /* PAGE ABOUT */
 .about-page {
     display: flex;
-    border: 3px solid yellow;
     height: 100vh;
 }
 
@@ -569,14 +570,26 @@ colors:
 }
 
 .software-container {
-    width: 50vw;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: auto;
+    width: 50vw;
+
+    margin-bottom: 50px;
+}
+
+.software {
+    width: 30px;
+}
+
+.project-container-skills{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
 }
-.software {
-    
-    width: 30px;
-    
+.project-container-skills-list{
+    background-color: none;
 }
