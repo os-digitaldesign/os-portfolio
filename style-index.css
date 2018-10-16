@@ -12,11 +12,12 @@ box-sizing: border-box;
 }
 
 .intro-heading-container {
-  width: 80vw;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 15vh;
 }
 .intro-heading {
   display: flex;
@@ -73,24 +74,41 @@ box-sizing: border-box;
   
   footer {
     background-color:beige;
-    height: 100px;
-    border: 3px solid red;
+    height: 80px;
     width: 100vw;
+
+    position: absolute;
+    bottom: -100px;
+    z-index: -1;
+
+    display: flex;
+    align-items: center;
   }
   .sm-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    position: fixed;
-
-    bottom: 0;
-    width: 20%;
-    margin-top: 10px;
+    margin-left: 20px;
+  
+    width: 30%;
   }
   .sm-container-list {
     width: 10%;
   }
   .sm-container-list-icons{
-    max-width: 80%;
+    max-width: 20px;
+  }
+
+  .rights {
+    float: right;
+    display: block;
+    margin-right: 20px;
+  }
+
+  .left{
+    width: 50vw;;
+  }
+  .right {
+    width: 50vw;;
   }

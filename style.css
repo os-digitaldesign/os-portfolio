@@ -440,6 +440,10 @@ form {
     min-height: 350px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*.projects-container-item {
     transition: opacity 400ms ease-in;
     color: white;
@@ -464,6 +468,10 @@ form {
 .projects-container-item:hover .projects-item-title{
         opacity: 0;
 } 
+
+a:hover {
+    opacity: 0.5;
+}
 
 .projects-macro {
     /*background-image: url(/assets/macro/macro.png);*/
