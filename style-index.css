@@ -11,7 +11,10 @@ box-sizing: border-box;
   /*background-image: linear-gradient(#fccdd3, #bbc4ef);*/
 }
 
-
+.intro-heading-container {
+  width: 80vw;
+  display: flex;
+}
 .intro-heading {
   display: flex;
   -webkit-align-content: center;
@@ -65,14 +68,20 @@ box-sizing: border-box;
     animation-delay: 2s;
   }
   
+  footer {
+    background-color:beige;
+    height: 100px;
+    border: 3px solid red;
+    width: 100vw;
+  }
   .sm-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     position: fixed;
-    right: 0;
-    top: 0;
+
+    bottom: 0;
     width: 20%;
     margin-top: 10px;
   }
