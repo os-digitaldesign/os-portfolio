@@ -6,61 +6,105 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="animation.js">
-	<link rel="stylesheet" href="https://fonts.google.com/specimen/Playfair+Display">
+  <link rel="stylesheet" href="animation.js">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Playfair+Display">
+  <link rel="stylesheet" href="navigation.css">
+
+
 	
 </head>
 <body>
-
+<header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+        
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="menu-icon">&#9776;</span>
+</header>
 	
 	<div class="wraper">
     <div class="project-container">
-      <div class="project-description">
+    <div class="project-description-box project-head-container">
         <h2 class="project-title">Macro Photography</h2>
-
-          <h3 class="project-title">Development</h3>
-          <ul class="project-container-skills">
-            <li class="project-container-skills-list">Research</li>
-            <li class="project-container-skills-list">Graphic design</li>
-            <li class="project-container-skills-list">UX design</li>
-            <li class="project-container-skills-list">UX user testing</li>
-          </ul>
-
-          <h3 class="project-title">Software</h3>
-          <ul class="project-container-skills">
-            <li class="project-container-skills-list">Nikon</li>
-            <li class="project-container-skills-list">Photohop</li>
-            <li class="project-container-skills-list">Lightroom</li>
-          </ul>
-
-          <h3 class="project-title">Projcet's Phylosophy</h3>
-          <p class="project-description-p">ATM mobile app is a part of UX design course. The purpose of te course is to create a mobile app as a prototype for the ATM. This is a group project.</p>
-          <p class="project-description-p">The goal of this app is to produce a functional app. There are new fuction are created. Based on the reaserch there is a decision to provide online travel card with the top-up option inside of the app. There are also several payment methods are added. Online ticket is created with the validation fucmtion where users can see how long they still can use the ticket.</p>
-          <p class="project-description-p">Overall, the final product as matched with the intial idea.</p>
-          <p class="project-description-p">The design od the app is based on the current color pallet with some improvemnets to make it more userfriendly. Everything is designed in simplicity but with full functionality to make users easy understand how to use the app.</p>
-
-      </div>
+        <!-- <h3 class="project-subtitle">E-Commerce website</h3> -->
+       
+      </div> 
+      
 
       <div class="project-illustration macro-photography">
-        <!-- <img src="assets/macro/macro.png" alt="" class="project-illustration-image"> -->
       </div>
+    </div>
+
+        <article class="caption caption-background macro-bg">
+          <p class="caption-text"><bold>"</bold>Designin a product is designing a relationship. Steve Rogers <bold>"</bold></p>
+        </article>
+
+        <div class="personal-description-container parallax">
+        
+          <article class="personal-description pop-up-one">
+            <h3 class="project-title title-about">My role</h3>
+            <ul class="project-container-skills">
+              <li class="project-container-skills-list">Identity</li>
+              <li class="project-container-skills-list">Photography</li>
+              <li class="project-container-skills-list">Image manipulation</li>
+              </ul>
+          </article>
+        
+          <article class="personal-description pop-up-two">
+            <h3 class="project-title title-about">Software</h3>
+            <ul class="software-container">
+              <li class="software-list"><img src="software-icons/photoshop.svg" alt="" class="software"></li>
+              </ul>
+          </article>
+          
+          <article class="personal-description pop-up-three">
+            <h3 class="project-title title-about">About the project</h3>
+            <p class="project-description-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro facilis iure eveniet numquam adipisci earum mollitia, at animi quae quod excepturi eligendi iste! Accusamus quod facilis eos laboriosam voluptate consequuntur.</p>
+          </article>
+          
+          <article class="personal-description pop-up-four">
+            <h3 class="project-title title-about">Software</h3>
+            <p class="project-description-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro facilis iure eveniet numquam adipisci earum mollitia, at animi quae quod excepturi eligendi iste! Accusamus quod facilis eos laboriosam voluptate consequuntur.</p>
+          </article> 
+        
+          <!--<article class="personal-description pop-up-five">
+            <div class="diamond-icon"></div>
+          </article> -->
+        </div>
+        
 
       <div class="project-assets-container">
-        <img src="assets/macro/1.png" alt="" class="progect-assets-image macro">
-        <img src="assets/macro/2.png" alt="" class="progect-assets-image macro">
-        <img src="assets/macro/3.png" alt="" class="progect-assets-image macro">
-        <img src="assets/macro/4.png" alt="" class="progect-assets-image macro">
-        <img src="assets/macro/5.png" alt="" class="progect-assets-image macro">
-        <img src="assets/macro/6.png" alt="" class="progect-assets-image macro">
+        <img src="assets/macro/1.png" alt="" class="progect-assets-image">
+        <img src="assets/macro/2.png" alt="" class="progect-assets-image">
+        <img src="assets/macro/3.png" alt="" class="progect-assets-image">
+        <img src="assets/macro/4.png" alt="" class="progect-assets-image">
+        <img src="assets/macro/5.png" alt="" class="progect-assets-image">
+        <img src="assets/macro/6.png" alt="" class="progect-assets-image">
+        <!-- <img src="assets/atm/ticket.png" alt="" class="progect-assets-image">
+        <img src="assets/atm/trips.png" alt="" class="progect-assets-image">
+        <img src="assets/atm/payment.png" alt="" class="progect-assets-image"> -->
         
       </div>
       <div class="buttons-container">
-          <img src="icons/next-right.svg" alt="" class="next-right-icon">
-          <img src="icons/next-right.svg" alt="" class="next-left-icon">
+        <img src="icons/next-right.svg" alt="" class="next-right-icon">
+        <img src="icons/next-right.svg" alt="" class="next-left-icon">
       </div>
-    </div>
+
 </div>
 
 
 </body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
 </html>

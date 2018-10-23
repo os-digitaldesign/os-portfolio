@@ -9,25 +9,37 @@
 	<link rel="stylesheet" href="animation.js">
 	<link rel="stylesheet" href="https://fonts.google.com/specimen/Playfair+Display">
 	<link rel="stylesheet" href="navigation.css">
+	<link rel="stylesheet" href="style-index.css">
+	<!-- <link rel="stylesheet" href="animation.css"> -->
 	
 </head>
 <body>
 	
 	<div class="wraper">
+		<header>
+			<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="projects.html">Projects</a>
+					<a href="contact.html">Contact</a>
+			</div>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()" class="menu-icon">&#9776;</span>
+		</header>
 
-			<nav class="navigation-menu">
+			<!-- <nav class="navigation-menu">
 					<ul class="navigation-menu-ul">
-					  <li><a href="home.html" class="active li-home"><a href="index.html" class="active li-home">HOME</a></li>
-					  <li><a href="about.html" class="active li-about"><a href="about.html" class="active li-about">ABOUT</a></li>
-					  <li><a href="projects.html" class="active li-projects"><a href="projects.html" class="active li-projects">PROJECTS</a></li>
-					  <li><a href="contact.html" class="active li-contact"><a href="contact.html" class="active li-contact">CONTACT</a></li>
+					  <li><a href="home.html" class="active li-home"><a href="index.html" class="active li-home about-nav">HOME</a></li>
+					  <li><a href="about.html" class="active li-about"><a href="about.html" class="active li-about about-nav">ABOUT</a></li>
+					  <li><a href="projects.html" class="active li-projects"><a href="projects.html" class="active li-projects about-nav">PROJECTS</a></li>
+					  <li><a href="contact.html" class="active li-contact"><a href="contact.html" class="active li-contact about-nav">CONTACT</a></li>
 					</ul>
-				  </nav>
+				  </nav> -->
 
-<div class="project-description about-page">
+<div class="project-description-box personal">
 		<div class="animated-tex">
-				<p class="animatedp">My name is Olga</p>
-				<p class="animatedp">I am a digital designer<span>|</span></p> 
+				<p class="animatedp text-one">My name is Olga</p>
+				<p class="animatedp text-two">I am a digital designer</p> 
 	    </div>
 </div>
 
@@ -35,18 +47,22 @@
 </div>
 
 <div class="personal-description-container">
+	<article class="caption">
+		<p class="caption-text"><bold>"</bold>Designin a product is designing a relationship. Steve Rogers <bold>"</bold></p>
+	</article>
+
 	<article class="personal-description pop-up-one">
-		<h3 class="project-title">About me</h3>
+		<h3 class="project-title title-about">About me</h3>
 		<p class="project-description-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro facilis iure eveniet numquam adipisci earum mollitia, at animi quae quod excepturi eligendi iste! Accusamus quod facilis eos laboriosam voluptate consequuntur.</p>
 	</article>
 
 	<article class="personal-description pop-up-two">
-		<h3 class="project-title">My creative world</h3>
+		<h3 class="project-title title-about">My creative world</h3>
 		<p class="project-description-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro facilis iure eveniet numquam adipisci earum mollitia, at animi quae quod excepturi eligendi iste! Accusamus quod facilis eos laboriosam voluptate consequuntur.</p>
 	</article>
 	
 	<article class="personal-description pop-up-three">
-		<h3 class="project-title">My skills</h3>
+		<h3 class="project-title title-about">My skills</h3>
 			  <ul class="project-container-skills">
 				<li class="project-container-skills-list">HTML & CSS</li>
 				<li class="project-container-skills-list">Visual design</li>
@@ -59,7 +75,7 @@
 	</article>
 	
 	<article class="personal-description pop-up-four">
-		<h3 class="project-title">Software</h3>
+		<h3 class="project-title title-about">Software</h3>
 			  <ul class="software-container">
 				<li class="software-list"><img src="software-icons/sketch.svg" alt="" class="software"></li>
 				<li class="software-list"><img src="software-icons/premiere.svg" alt="" class="software"></li>
@@ -69,6 +85,10 @@
 				<li class="software-list"><img src="software-icons/after-effects.svg" alt="" class="software"></li>
 			  </ul>
 	</article> 
+
+	<!--<article class="personal-description pop-up-five">
+		<div class="diamond-icon"></div>
+	</article> -->
 </div>
 
 </div>
@@ -87,4 +107,14 @@
 
 
 </body>
+
+<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+		}
+		
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+		</script>
 </html>

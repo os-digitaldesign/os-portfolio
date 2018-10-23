@@ -1,0 +1,47 @@
+p://www.megalocode.com/cooltext/animations  
+
+                     .animated-tex{
+                       width: 50vw;
+                       height: 30vh;
+                       float: left;
+                       margin-left: 40px;
+                       margin-top: 40%;
+                     }
+                    
+                    .animatedp{
+                      color:white; 
+                      font-size: 40px;
+                      margin: 10px 0 0 10px;
+                      white-space: nowrap;
+                      overflow: hidden;
+                      width: 30em;
+                      animation: type 4s steps(60, end); 
+                      font-style: italic;
+                    }
+                    
+                    .animatedp:nth-child(2){
+                      animation: type2 8s steps(60, end);
+                    }
+                    .animatedp:nth-child(3){
+                        animation: type2 8s steps(60, end);
+                      }
+                    
+                    span{
+                      animation: blink 1s infinite;
+                    }
+                    
+                    @keyframes type{ 
+                      from { width: 0; } 
+                    } 
+                    
+                    @keyframes type2{
+                      0%{width: 0;}
+                      50%{width: 0;}
+                      100%{ width: 100; } 
+                    } 
+                    
+                    @keyframes blink{
+                      to{opacity: .0;}
+                    }  */
+
+                    /* contact form */

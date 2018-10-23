@@ -8,17 +8,20 @@
   <link rel="stylesheet" href="style.css"> 
   <link rel="stylesheet" href="navigation.css">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Playfair+Display">
+  <link rel="stylesheet" href="navigation.css">
 </head>
 <body>
-
-    <nav class="navigation-menu">
-        <ul class="navigation-menu-ul">
-          <li><a href="home.html" class="active li-home"><a href="index.html" class="active li-home">HOME</a></li>
-          <li><a href="about.html" class="active li-about"><a href="about.html" class="active li-about">ABOUT</a></li>
-          <li><a href="projects.html" class="active li-projects"><a href="projects.html" class="active li-projects">PROJECTS</a></li>
-          <li><a href="contact.html" class="active li-contact"><a href="contact.html" class="active li-contact">CONTACT</a></li>
-        </ul>
-    </nav>
+<header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+        
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="menu-icon">&#9776;</span>
+</header>
 	
   <div class="wrapper">
     <div class="contact-description">
@@ -54,4 +57,13 @@
 </div>
 
 </body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
 </html>
