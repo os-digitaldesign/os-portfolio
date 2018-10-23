@@ -1,0 +1,71 @@
+@media  (max-width: 580px) {
+.project-container-skills {
+ width: 100vw;
+}
+.project-container-skills-list {
+    margin-left: 0;
+    width: 100vw;
+}
+.software-container {
+    width: 100vw;
+}
+.personal-description {
+    padding-left: 0;
+}
+.project-description-box {
+    width: 100vw;
+    height: 40vh;
+}
+.project-illustration  {
+    width: 100vw;
+}
+.intro-heading-container {
+    width: 100vw;
+}
+.intro-heading-text {
+    font-size: 80px;
+}
+.personal-description {
+    width: 100vw;
+}
+    .project-assets-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .progect-assets-image {
+        width: 100vw;
+    }
+
+    .projects-container {
+        width: 100vw;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   
+   -webkit-flex-flow: row wrap;
+   justify-content: space-around;
+    }
+    .projects-container-item {
+        width: 50vw;
+    }
+    .projects-bw, .projects-visual, .projects-macro {
+        width: 100vw;  
+    }
+    .projects-visual {
+        background-color: #6534ff;
+    }
+  .projects-ux {
+    background-color: #fccdd3;
+  }
+  .projects-macro {
+      background-color: #bbc4ef;
+  }
+.projects-architecture {
+    background-color: #6534ff;
+}
+}

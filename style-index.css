@@ -101,9 +101,13 @@ box-sizing: border-box;
   }
 
   .rights {
-    float: right;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    margin-right: 20px;
+    width: 100vw;
+    color: white;
+    bottom: 0;
+    position: absolute;
   }
 
   .left{

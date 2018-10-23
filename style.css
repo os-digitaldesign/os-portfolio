@@ -87,9 +87,8 @@ list-style: none;}
 
 
 
-/* 
-from the example  https://codepen.io/read-eye/pen/ZByYam
-                     htt
+
+from the example  https://codepen.io/read-eye/pen/ZByYamhtt
                     .contact-form {
                       border-radius: 10px;
                       background: -webkit-linear-gradient(#ff7abc, #40caee);
@@ -207,6 +206,9 @@ h3 {
     padding: 10px;
 }
 
+.background-caption {
+    background-image: linear-gradient(to left, #a30b37 , #fccdd3);
+}
 /* VISUAL progect */
 .caption-background {
     background-image: url(assets/visualdeaign/vd-bg.png);
@@ -243,7 +245,7 @@ h3 {
 .macro-photography {
     width: 50vw;
     height: 100vh;
-    background-image: url(/assets/macro/macro.png); 
+    background-image: url(/assets/macro/1.png); 
     background-size: 100%;
     background-repeat: repeat;
     background-position: center;
@@ -471,8 +473,6 @@ a {
         opacity: 0;
 } 
 
-a:hover {
-}
 
 .projects-macro {
     /*background-image: url(/assets/macro/macro.png);*/
@@ -689,6 +689,11 @@ colors:
 
 .caption-text {
     width: 70vw;
+    font-size: 50px;
+    color: white;
+}
+em {
+    font-size: 30px;
 }
 
 .title-about {

@@ -106,6 +106,24 @@ span {
         font-size: 36px;
         margin-left: 50px;
     }
+
+    .social-box {
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+        height: 100px;
+        margin-top: 30px;
+    }
+   .sidenav a.active {
+    color: #62bcfa;
+    }
+
+/*    li a.active {
+        color: #61c0bf;
+    } */
+
     
     @media screen and (max-height: 450px) {
       .sidenav {padding-top: 15px;}
